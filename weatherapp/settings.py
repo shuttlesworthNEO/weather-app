@@ -10,6 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+# NOTE: The settings file can be split into dev, qa , staging and prod environments. This is fairly easy to implement.
+# Once you split up the file per environment, you only need to change the settings reference in the WSGI, ASGI and
+# Manage.py files
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
